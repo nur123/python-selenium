@@ -21,7 +21,5 @@ class LoginFacebookFindElementByIDandName():
         time.sleep(5)
         driver.find_element(By.XPATH, "//body[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[3]/button[1]").click()
         time.sleep(5)
-        driver.find_element(By.XPATH, "//body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]").click()
-        time.sleep(5)
 findbyxpath = LoginFacebookFindElementByIDandName()
 findbyxpath.locate_by_xpath_loginfacebook()
